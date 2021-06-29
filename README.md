@@ -23,3 +23,5 @@ Various exploits created while preparing for the OSED certification exam.
 - **[Egghunter]** VulnServer GMON
 
 - [Signatus](https://github.com/bmdyy/signatus)
+
+- **[DEP Bypass]** Easy File Sharing Web Server 7.2
