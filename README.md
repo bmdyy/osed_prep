@@ -18,6 +18,8 @@ Various exploits created while preparing for the OSED certification exam.
 
 - **[ASLR + DEP Bypass]** [quote_db](https://github.com/bmdyy/quote_db/)
 
+- **[DEP Bypass]** MailCarrier 2.51
+
 ## SEH Overflow
 
 - **[Egghunter]** VulnServer GMON
